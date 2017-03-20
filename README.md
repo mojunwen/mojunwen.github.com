@@ -1,2 +1,2 @@
-# mojunwen.github.com
-个人站点
+# mojunwen.github.io
+我的简历

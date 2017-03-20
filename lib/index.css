@@ -103,7 +103,7 @@ html,body{background:#00c091 !important ;font-size: 14px;line-height: 1.5;color:
 .wbd-baseStyle .baseItem .baseContent .conTitle span.post{width: 280px;text-align: right;}
 /*头像模块*/
 .wbd-baseStyle .headDiv .inner{top: 104px;right: 64px;width: 150px;height: 200px;position: relative;overflow: hidden;float: right;border: 6px solid rgba(255, 255, 255, 0.9);}
-.wbd-baseStyle .headDiv .inner img{height: 200px;display: block;}
+.wbd-baseStyle .headDiv .inner img{height: 214px;display: block;width: 150px;}
 .wbd-baseStyle .headDiv .inner .headNotice{position: absolute;cursor:pointer;width: 100%;height: 100%;background-color: rgba(0,0,0,.3);text-align: center;padding-top:124px;color: rgba(255,255,255,.5); opacity: 0;}
 
 /*基本信息模块*/
