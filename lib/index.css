@@ -1,0 +1,128 @@
+﻿*{padding:0px;margin:0px;outline:none;}
+html{border-collapse:collapse;background:#f0f1f3;}
+html,body{background:#f4f4f4;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+ul,ol,li{list-style:none;color:#2F2C28;font-size:14px;font-weight:normal;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+a:link{text-decoration:none;}
+body, button, input, select, textarea, a,label{color:#3b3b3b;}
+a:visited{text-decoration:none;}
+img{border:none;}
+div[contenteditable] ul, div[contenteditable] ul li{font-size: inherit;list-style-type: initial;list-style-position:inside}
+div[contenteditable] ol, div[contenteditable] ol li{font-size: inherit;list-style-type:  decimal;list-style-position:inside}
+.left{float: left;}
+.right{float: right;}
+html.open{overflow: hidden;}
+
+/*布局*/
+.wbd-baseStyle{position: relative;}
+.wbd-baseStyle .baseSort{border: 1px transparent;padding: 5px;border-radius: 4px;}
+.wbd-baseStyle .selectedItem{background: #fff;position: relative;z-index: 999 !important;cursor:  initial !important;border:1px solid #60d5ba;}
+.wbd-baseStyle{width: 1100px;background: #fff;}
+.wbd-baseStyle .baseItem{width: 100%;position: relative;cursor: move;z-index: 1;}
+.wbd-baseStyle .baseItem dl dt{margin-bottom: 0px !important; }
+.wbd-baseStyle .baseItem dl dd{cursor: initial;padding-bottom: 0px !important;}
+.wbd-baseStyle .baseItem dl dt span{cursor: initial;}
+.wbd-baseStyle .baseContent{font-size: 16px;margin-bottom: 0px;padding: 5px 8px;}
+.wbd-baseStyle .baseContent p{font-size:16px;}
+.wbd-baseStyle .baseContent .conTitle{clear: both;}
+.wbd-baseStyle .baseContent .conTitle span{width: 33.3%;float: left;border: 1px dashed transparent;}
+.baseContent .conTitle span div{white-space: nowrap;}
+.wbd-baseStyle .baseContent .conText{border: 1px dashed transparent;margin-right: 10px}
+.wbd-baseStyle .baseContent .conTitle span>div{overflow:hidden}
+.wbd-baseStyle .headDiv .inner{width:150px;height:200px;text-align: center;margin:0 auto;border:6px solid rgba(255,255,255,0.9);position: relative;overflow: hidden;margin-bottom:30px;box-sizing: content-box;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;}
+.wbd-baseStyle .headDiv .inner .headNotice{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background-color: rgba(0,0,0,.3);text-align: center;padding-top: 164px;color: rgba(255,255,255,.5); opacity: 0;}
+.wbd-baseStyle .headDiv .inner .img-preview {width: 150px;height:200px;}
+.wbd-baseStyle .headDiv .delete{width: 24px;height: 24px;position: absolute;top: 5px;right: 5px;background: #fc411b url(../images/zxbj/zx_index_sp.png) no-repeat 4px -809px;}
+.wbd-baseStyle .headDiv .choose{height: 26px;line-height: 26px;padding: 0 12px;color: #fff;border-radius: 30px;background: #00c091;display: inline-block;border: 1px solid transparent;}
+.wbd-baseStyle .msgDiv .baseMsg{/*height: 40px;line-height: 40px;*/border: 1px dashed transparent;margin-bottom: 10px;float: left;}
+.wbd-baseStyle .baseDel{position: relative;}
+.wbd-baseStyle .baseDel .delete{position: absolute;color: #60d5ba;top: 50%;margin-top: -8px;right: -8px;cursor: pointer;display: none;background: #fff;width: 16px;height: 16px;line-height: 15px;border-radius: 50%;}
+.wbd-baseStyle .hobbyDiv .baseDel .delete{top: -9px;margin: 0px;}
+.wbd-baseStyle .skillDiv .baseSkill{border: 1px dashed transparent;color: #fff;margin-bottom: 10px;padding: 3px 0px;}
+.wbd-baseStyle .skillDiv .baseSkill .title{width: 100%;line-height: 26px;font-size: 16px;margin-bottom: 5px;}
+.wbd-baseStyle .skillDiv .baseSkill .line{width: 100%;display: block;position: relative;height: 8px;}
+.wbd-baseStyle .skillDiv .baseSkill .line i{width: 60%;position: absolute;left: 0;top:0;border-color:#92a3b2;border-top-style:solid;border-top-width:8px;cursor: e-resize}
+.wbd-baseStyle .skillDiv .ui-icon-gripsmall-diagonal-se {    background: transparent;width: 100%;cursor: e-resize;}
+.wbd-baseStyle .skillDiv .ui-resizable-s,.wbd-baseStyle .skillDiv .ui-resizable-e{display: none !important;}
+.wbd-baseStyle .hobbyDiv .baseHobby{width: 80px;float: left;padding: 5px;text-align: center;border: 1px dashed transparent;}
+.wbd-baseStyle .hobbyDiv .baseHobby a{font-size: 40px;color: #fff;width: 68px;height: 55px;line-height: 45px;display: inline-block;}
+.wbd-baseStyle .hobbyDiv .baseHobby .title{width: 68px;display: inline-block;font-size: 16px;color: #fff;border: 1px dashed transparent;}
+.wbd-baseStyle div[contenteditable]{border: 1px solid transparent;}
+.wbd-baseStyle div[contenteditable] a{color: inherit;text-decoration: underline;}
+.wbd-baseStyle div[contenteditable] blockquote{font-size: inherit;    margin-left: 10px !important}
+.wbd-baseStyle .nameDiv dl dt{display: none;}
+.wbd-baseStyle .nameDiv h1{font-size: 45px;}
+.wbd-baseStyle .nameDiv h2{font-size: 16px;}
+.wbd-baseStyle .msgDiv span{font-size: 16px;}
+.wbd-baseStyle .msgDiv .baseMsg a{line-height: 29px;}
+.wbd-baseStyle .baseItem dl dt span{font-size: 26px;font-weight: bold;}
+.wbd-baseStyle .nameDiv .wbd-fontBar .inner{width:717px;background: #fff;} 
+.text-draggable .wbd-fontBar .inner{width: 738px;}
+
+* { -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html,body{background:#00c091 !important ;font-size: 14px;line-height: 1.5;color: #333;letter-spacing:.1px;}
+/**/
+.baseItem dl dt .resume_focus:after{top: 6px !important;left: 3px !important;}
+.msgDiv dd .resume_focus:after{top: -1px !important;left: -3px !important;}
+.hobbyDiv dd .resume_focus:after{height: 51px !important;top: 7px;left: 0px;}
+
+.wbd-baseStyle .selectedItem{background: #fff;}
+
+/*模板结构*/
+.wbd-baseStyle .wbd-divLeft{min-height:270px;height:auto;position:relative;width: 100%;float: left;}
+.wbd-baseStyle .wbd-divRight{height:auto;padding:0px;margin-top: 80px;position: relative;width: 100%;float: left;}
+.wbd-baseStyle .wbd-divBottom{position: absolute;bottom:0px;width:1100px;z-index:1;}
+.wbd-baseStyle .wbd-divLeft .baseItem dl dt{display: none;}
+.wbd-baseStyle .wbd-divLeft .baseItem dl dd,.wbd-baseStyle .wbd-divLeft .baseItem dl{padding: 0px;margin: 0px;background: none;border: none;width: auto;}
+
+/*通用信息*/
+.wbd-baseStyle .baseItem{padding:0px;float: left;}
+.wbd-baseStyle .baseItem dl{margin: 0 20px;padding-top:20px;width: 1060px;float: left;}
+.wbd-baseStyle .baseItem dl dt{padding:0px;float:left;width:auto;width:140px;}
+.wbd-baseStyle .baseItem dl dt a{margin-left:166px;position: absolute;display: none;}
+.wbd-baseStyle .baseItem dl dt span{font-size:24px;}
+.wbd-baseStyle .baseItem dl dt span div:first-child{line-height: 50px;padding: 0 20px;color: #FFF;}
+.wbd-baseStyle .baseItem dl dd{padding:0px 10px 20px 0;color:#737373;float:right;width: 890px;margin-right: 10px;}
+.wbd-baseStyle .baseItem .baseContent{padding: 0px 0 0 10px;margin:0px;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.time{width: 270px;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.company{width: 310px;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.post{width: 280px;text-align: right;}
+/*头像模块*/
+.wbd-baseStyle .headDiv .inner{top: 104px;right: 64px;width: 150px;height: 200px;position: relative;overflow: hidden;float: right;border: 6px solid rgba(255, 255, 255, 0.9);}
+.wbd-baseStyle .headDiv .inner img{height: 200px;display: block;}
+.wbd-baseStyle .headDiv .inner .headNotice{position: absolute;cursor:pointer;width: 100%;height: 100%;background-color: rgba(0,0,0,.3);text-align: center;padding-top:124px;color: rgba(255,255,255,.5); opacity: 0;}
+
+/*基本信息模块*/
+.wbd-baseStyle .msgDiv{position: absolute;margin: 0;top: 273px;left: 0;padding-left:20px;padding-top: 10px;z-index: 20;}
+.wbd-baseStyle .msgDiv .baseMsg{margin-bottom: 10px;float: left;margin-right: 16px;}
+.wbd-baseStyle .msgDiv .baseMsg a{display: inline-block;font-size:16px;margin-right:4px;vertical-align: middle;height:31px;float: left;line-height: 28px;}
+.wbd-baseStyle .msgDiv .baseMsg span{width:auto;float: left;}
+.wbd-baseStyle .msgDiv.baseItem dl dd{float: left;}
+/*姓名、求职意向*/
+.wbd-baseStyle .nameDiv{display: inline-block;width: 624px;padding: 20px 10px 20px 20px;margin: 122px 0 0 33px;}
+.wbd-baseStyle .nameDiv h1{width: 580px;text-align:left;color: #FFF;}
+.wbd-baseStyle .nameDiv h2{width: 580px;text-align:left;font-weight: lighter;color: #FFF;}
+
+.wbd-baseStyle .imgDiv .baseImg{margin-right: 25px;}
+
+.jm0190_j1 .wbd-divLeft{background:#FFFFFF url(./j1_head_bg.png) no-repeat left top;}
+.jm0190_j1 .wbd-divBottom{background:url(../../editresume/images/jm0190/j1_bottom_bg.png) no-repeat bottom center;height:80px;}
+.jm0190_j1 .baseItem dl dd .conText{border-bottom: 2px dashed #42D0A8 !important;}
+.jm0190_j1 .baseItem .baseContent{border-left: 2px solid #42D0A8 !important;}
+.jm0190_j1 .baseItem dl dt span div:first-child{background-color: #42D0A8;}
+.jm0190_j1 .msgDiv .baseMsg a,.jm0190_j1 .msgDiv input,.jm0190_j1 .baseItem .baseContent .conTitle{color: #42D0A8;}
+
